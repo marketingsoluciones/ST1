@@ -1,20 +1,15 @@
 {
-  "name": "plain",
+  "name": "proyecto1",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "autoprefixer": "^10.1.0",
-    "next": "^10.0.1",
-    "postcss": "^8.2.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "tailwindcss": "^2.2.19"
-  },
   "scripts": {
-    "build:css": "tailwind build src/tailwindcss.css -o assets/css/tailwindcss.css"
+    "build-css": "npx tailwindcss -i tailwind.css -o ./public/css/tailwind.css --watch"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.22"
+  }
 }
