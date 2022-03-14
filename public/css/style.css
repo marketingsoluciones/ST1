@@ -4260,14 +4260,7 @@ fieldset:disabled .btn {
   display: block;
 }
 
-.dropdown-header {
-  display: block;
-  padding: 0.5rem 1rem;
-  margin-bottom: 0;
-  font-size: 0.82031rem;
-  color: #fbfbfb;
-  white-space: nowrap;
-}
+
 
 .dropdown-item-text {
   display: block;
@@ -15592,7 +15585,6 @@ button:focus {
 }
 
 .service-content .title {
-  color: #02126a;
   font-weight: 700;
   line-height: 0.8;
   margin-bottom: 25px;
@@ -16303,7 +16295,7 @@ button:focus {
 .container.case-carousel-navigation .swiper-button-next {
   width: 55px;
   height: 55px;
-  color: #fff;
+
   font-size: 20px;
   border-radius: 50%;
 }
@@ -16327,7 +16319,7 @@ button:focus {
 .container.case-carousel-navigation .swiper-button-prev:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
-  color: #fff;
+
   border-color: transparent;
 }
 
@@ -16350,7 +16342,6 @@ button:focus {
 .container.case-carousel-navigation .swiper-button-next:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
-  color: #fff;
   border-color: transparent;
 }
 
@@ -18105,7 +18096,6 @@ button:focus {
 .service-carousel .swiper-button-next {
   width: 55px;
   height: 55px;
-  color: #fff;
   font-size: 20px;
   border-radius: 50%;
 }
@@ -18128,10 +18118,7 @@ button:focus {
 }
 
 .service-carousel .swiper-button-prev:hover {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  color: #fff;
-  border-color: transparent;
+
 }
 
 .service-carousel .swiper-button-next {
@@ -18428,17 +18415,12 @@ button:focus {
 .case-details-carousel .swiper-button-next {
   width: 55px;
   height: 55px;
-  color: #fff;
-  font-size: 20px;
-  border-radius: 50%;
-  opacity: 0;
-  visibility: hidden;
+ 
 }
 
 .case-details-carousel:hover .swiper-button-prev,
 .case-details-carousel:hover .swiper-button-next {
-  opacity: 1;
-  visibility: visible;
+
 }
 
 .case-details-carousel .swiper-button-prev {
@@ -18446,45 +18428,18 @@ button:focus {
   right: 95px;
   top: auto;
   bottom: 65px;
-  background: -webkit-gradient(linear, left top, right top, from(#fc7318), color-stop(#fe8415), color-stop(#fe9515), color-stop(#fea51a), to(#feb423));
-  background: -webkit-linear-gradient(left, #fc7318, #fe8415, #fe9515, #fea51a, #feb423);
-  background: -o-linear-gradient(left, #fc7318, #fe8415, #fe9515, #fea51a, #feb423);
-  background: linear-gradient(to right, #fc7318, #fe8415, #fe9515, #fea51a, #feb423);
-  border: solid 2px transparent;
-  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), -webkit-linear-gradient(349deg, #fc7318 0%, #feb423 100%);
-  background-image: -o-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), -o-linear-gradient(349deg, #fc7318 0%, #feb423 100%);
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #fc7318 0%, #feb423 100%);
-  background-origin: border-box;
-  background-clip: content-box, border-box;
-  -webkit-box-shadow: 2px 1000px 1px #f7faff inset;
-          box-shadow: 2px 1000px 1px #f7faff inset;
-  color: #fc7418;
+
 }
 
 .case-details-carousel .swiper-button-prev:hover {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  color: #fff;
-  border-color: transparent;
+ 
 }
 
 .case-details-carousel .swiper-button-next {
   right: 30px;
   top: auto;
   bottom: 65px;
-  background: -webkit-gradient(linear, left top, right top, from(#fc7318), color-stop(#fe8415), color-stop(#fe9515), color-stop(#fea51a), to(#feb423));
-  background: -webkit-linear-gradient(left, #fc7318, #fe8415, #fe9515, #fea51a, #feb423);
-  background: -o-linear-gradient(left, #fc7318, #fe8415, #fe9515, #fea51a, #feb423);
-  background: linear-gradient(to right, #fc7318, #fe8415, #fe9515, #fea51a, #feb423);
-  border: solid 2px transparent;
-  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), -webkit-linear-gradient(349deg, #fc7318 0%, #feb423 100%);
-  background-image: -o-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), -o-linear-gradient(349deg, #fc7318 0%, #feb423 100%);
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #fc7318 0%, #feb423 100%);
-  background-origin: border-box;
-  background-clip: content-box, border-box;
-  -webkit-box-shadow: 2px 1000px 1px #f7faff inset;
-          box-shadow: 2px 1000px 1px #f7faff inset;
-  color: #fc7418;
+
 }
 
 .case-details-carousel .swiper-button-next:hover {
